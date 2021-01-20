@@ -1,15 +1,6 @@
 # ★〓本wiki编辑及使用方法〓★
 
-```tip
-deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
-```
-```danger
-deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
-```
 ```note
-deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
-```
-```warning
 deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
 ```
 
@@ -95,13 +86,28 @@ You can [generate](https://github.com/rundocs/starter-slim/generate) with the sa
 
 ### 特色 
 
-- Shortcodes (Toasts card, mermaid)
-- Pages Plugins (emoji, gist, avatar, mentions)
-- Auto generate sidebar
-- [Attribute List Definitions](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions) (Primer/css utilities, Font Awesome 4)
+- 简码 (tip, note, warning, danger. Toasts card, mermaid)
+- 页面插件 (emoji, gist, avatar, mentions)
+- 自动生成侧边栏
+- [属性列表定义](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions) (Primer/css utilities, Font Awesome 4)
 - Service worker (caches)
 - SEO (404, robots.txt, sitemap.xml)
 - Canonical Link (Open Graph, Twitter Card, Schema data)
+
+简码示例：
+
+```note
+deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
+```
+```tip
+deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
+```
+```danger
+deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
+```
+```warning
+deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
+```
 
 ## 可选参数
 
