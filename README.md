@@ -1,18 +1,69 @@
-# jekyll-rtd-theme
+# deepin用户手册及FAQ
+
+**deepin用户手册文档目录上线GitHub**，该项目由Jekyll驱动！
+
+## 1.项目介绍
+
+**亲爱的深粉：**
+
+ deepin文档目录已上线GitHub，目前包括deepin用户手册&deepin-FAQ。
+ 
+ deepin用户手册，主要是deepin操作系统的一些使用介绍文档。目前我们已经上传了一些内容，包括系统基础支持、入门知识、基础模块功能使用介绍，大家可以了解学习，或者从这些或其他方面补充。
+
+## 2.文档及排版要求
+
+### 使用说明
+
+该文档支持多层目录，目录名可为中文。每一层目录下建立一个`README.md`文档（格式要求见下方），在目录下建立你需要的`正式文档.md`(格式要求见下方)。
+
+### README.md文档格式：
+
+文档头部格式必须为：
+```
+{% raw %}
+
+---
+sort: 1
+---
+
+# 该级目录的标题
+
+这里你还可以写点你想的该目录分类的介绍。
+
+{% include list.liquid all=true %}
+
+source: `{{ page.path }}`
+
+{% endraw %}
+```
+
+参数`sort: 1`为目录或文档的排序顺序。
+
+###正式文档格式：
+
+```
+{% raw %}
+
+---
+sort: 1
+---
+
+# 你写的文档的标题
+
+source: `{{ page.path }}`
+
+文档正文。。。。。。。
+
+{% endraw %}
+```
+参数`sort: 1`为目录或文档的排序顺序，不使用该参数，文档较多时，显示不清楚层次。
+
+## 3.本项目使用jekyll-rtd-theme
 
 ![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=develop)
 ![jsDelivr](https://data.jsdelivr.com/v1/package/gh/rundocs/jekyll-rtd-theme/badge)
 
-Just another documentation theme compatible with GitHub Pages
-
-## What it does?
-
-This theme is inspired by [sphinx-rtd-theme](https://github.com/readthedocs/sphinx_rtd_theme) and refactored with:
-
-- [@primer/css](https://github.com/primer/css)
-- [github-pages](https://github.com/github/pages-gem) ([dependency versions](https://pages.github.com/versions/))
-
-## Quick start
+### 快速部署
 
 ```yml
 remote_theme: rundocs/jekyll-rtd-theme
@@ -20,11 +71,7 @@ remote_theme: rundocs/jekyll-rtd-theme
 
 You can [generate](https://github.com/rundocs/starter-slim/generate) with the same files and folders from [rundocs/starter-slim](https://github.com/rundocs/starter-slim/)
 
-## Usage
-
-Documentation that can guide how to create with Github pages, please refer to [rundocs.io](https://rundocs.io) for details
-
-## Features
+### 特色 
 
 - Shortcodes (Toasts card, mermaid)
 - Pages Plugins (emoji, gist, avatar, mentions)
@@ -34,7 +81,7 @@ Documentation that can guide how to create with Github pages, please refer to [r
 - SEO (404, robots.txt, sitemap.xml)
 - Canonical Link (Open Graph, Twitter Card, Schema data)
 
-## Options
+## 可选参数
 
 | name          | default value        | description       |
 | ------------- | -------------------- | ----------------- |
