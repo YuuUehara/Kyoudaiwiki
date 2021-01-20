@@ -1,16 +1,24 @@
 # deepin用户手册及FAQ
 
+```tip
+deepin用户手册文档目录上线，该项目由Jekyll wiki主题驱动！
+
 本wiki编辑使用方法：[《Jekyll驱动的wiki使用方法》](/本wiki使用方法.md)
+```
 
-> **deepin用户手册文档目录上线**，该项目由Jekyll wiki主题驱动！
-
-**亲爱的深粉：（深度官方原文）**
-
- deepin文档目录已上线GitHub，目前包括deepin用户手册&deepin-FAQ。
- 
- deepin用户手册，主要是deepin操作系统的一些使用介绍文档。目前我们已经上传了一些内容，包括系统基础支持、入门知识、基础模块功能使用介绍，大家可以了解学习，或者从这些或其他方面补充。
+ > deepin文档目录已上线GitHub，目前包括deepin用户手册&deepin-FAQ。 
+ >> deepin用户手册，主要是deepin操作系统的一些使用介绍文档。
+ >> deepin-FAQ，是针对deepin日常使用碰到的问题，对应的解决方法。
 
 {% include list.liquid all=true %}
+
+```tip
+deepin用户手册深度官方源文件：[deepin-usermanual](https://github.com/linuxdeepin/deepin-usermanual)
+
+deepin- FAQ深度官方源文件：[deepin-faq](https://github.com/linuxdeepin/deepin-faq)
+
+欢迎提交内容，共同参与建设，让更多用户参与到deepin的体验、使用。感谢大家对Linux发展所做出的贡献！
+```
 
 ## The license
 
