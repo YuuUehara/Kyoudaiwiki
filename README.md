@@ -2,6 +2,8 @@
 
 **deepin用户手册文档目录上线GitHub**，该项目由Jekyll驱动！
 
+{% include list.liquid all=true %}
+
 ## 1.项目介绍
 
 **亲爱的深粉：**
@@ -28,11 +30,11 @@ sort: 1
 
 # 该级目录的标题
 
-这里你还可以写点你想的该目录分类的介绍。
-
 {% include list.liquid all=true %}
 
 source: `{{ page.path }}`
+
+这里你还可以写点你想的该目录分类的介绍。
 
 {% endraw %}
 ```
@@ -48,9 +50,9 @@ source: `{{ page.path }}`
 sort: 1
 ---
 
-# 你写的文档的标题
-
 source: `{{ page.path }}`
+
+# 你写的文档的标题
 
 文档正文。。。。。。。
 
