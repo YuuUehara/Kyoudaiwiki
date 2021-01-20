@@ -18,7 +18,7 @@ deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动
 
 该文档支持多层目录，目录名可为中文。每一层目录下建立一个`README.md`文档（格式要求见下方），在目录下建立你需要的`正式文档.md`(格式要求见下方)。
 
-### README.md文档格式：
+### （1）README.md文档格式：
 
 文档头部格式必须为：
 ```
@@ -41,7 +41,7 @@ source: `{{ page.path }}`
 
 参数`sort: 1`为目录或文档的排序顺序。
 
-### 正式文档格式：
+### （2）正式文档格式：
 
 ```
 {% raw %}
@@ -60,7 +60,7 @@ source: `{{ page.path }}`
 ```
 参数`sort: 1`为目录或文档的排序顺序，不使用该参数，文档较多时，显示不清楚层次。
 
-### 插入带 Jekyll 语法的html代码格式：
+### （3）插入带 Jekyll 语法的html代码格式：
 
 本来 Markdown 用来插入 HTML 代码是没有问题的，但是 Jekyll 语法内容直接在文中的任何地方都会被转换，所以也只能借助 Jekyll 语法来解决这一问题。比如，原本的变量：
 
@@ -76,7 +76,7 @@ source: `{{ page.path }}`
 ![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=develop)
 ![jsDelivr](https://data.jsdelivr.com/v1/package/gh/rundocs/jekyll-rtd-theme/badge)
 
-### 快速部署
+### （1）快速部署
 
 ```yml
 remote_theme: rundocs/jekyll-rtd-theme
@@ -84,9 +84,9 @@ remote_theme: rundocs/jekyll-rtd-theme
 
 You can [generate](https://github.com/rundocs/starter-slim/generate) with the same files and folders from [rundocs/starter-slim](https://github.com/rundocs/starter-slim/)
 
-### 特色 
+### （2）特色 
 
-- 简码 (tip, note, warning, danger. Toasts card, mermaid)
+- 简码 (Toasts card(tip, note, warning, danger), mermaid(流程图，时序图，甘特图，类图等))
 - 页面插件 (emoji, gist, avatar, mentions)
 - 自动生成侧边栏
 - [属性列表定义](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions) (Primer/css utilities, Font Awesome 4)
@@ -95,6 +95,8 @@ You can [generate](https://github.com/rundocs/starter-slim/generate) with the sa
 - Canonical Link (Open Graph, Twitter Card, Schema data)
 
 简码示例：
+
+吐司卡Toasts card(tip, note, warning, danger)：
 
 ```note
 deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
@@ -109,7 +111,61 @@ deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动
 deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
 ```
 
-## 可选参数
+美人鱼mermaid(流程图，时序图，甘特图，类图等)：
+
+```
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+```
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+```
+gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2014-01-10
+
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2               :         des4, after des3, 5d
+```
+
+```
+classDiagram
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
+```
+
+## （3）可选参数
 
 | name          | default value        | description       |
 | ------------- | -------------------- | ----------------- |
