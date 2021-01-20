@@ -1,7 +1,7 @@
 # deepin用户手册及FAQ
 
 ```tip
-deepin用户手册文档目录上线，该项目由Jekyll wiki主题驱动！
+deepin用户手册文档目录上线，该项目由Jekyll wiki主题驱动！如有问题请转至[〔留言板〕](https://duter2016.github.io/liuyan/)反馈！
 
 本wiki编辑使用方法：[《Jekyll驱动的wiki使用方法》](/本wiki使用方法.md)
 ```
