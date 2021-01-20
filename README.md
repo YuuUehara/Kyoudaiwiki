@@ -12,7 +12,7 @@ deepin用户手册文档目录上线，该项目由Jekyll wiki主题驱动！
 
 {% include list.liquid all=true %}
 
-```tip
+```note
 deepin用户手册深度官方源文件：[deepin-usermanual](https://github.com/linuxdeepin/deepin-usermanual)
 
 deepin- FAQ深度官方源文件：[deepin-faq](https://github.com/linuxdeepin/deepin-faq)
