@@ -1,4 +1,4 @@
-# 本wiki编辑及使用方法
+# ★〓本wiki编辑及使用方法〓★
 
 ```tip
 deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
