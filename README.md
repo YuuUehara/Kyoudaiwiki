@@ -7,8 +7,9 @@ deepin用户手册文档目录上线，该项目由Jekyll wiki主题驱动！
 ```
 
  > deepin文档目录已上线GitHub，目前包括deepin用户手册&deepin-FAQ。 
- >> deepin用户手册，主要是deepin操作系统的一些使用介绍文档。
- >> deepin-FAQ，是针对deepin日常使用碰到的问题，对应的解决方法。
+ >> + deepin用户手册，主要是deepin操作系统的一些使用介绍文档。
+ 
+ >> + deepin-FAQ，是针对deepin日常使用碰到的问题，对应的解决方法。
 
 {% include list.liquid all=true %}
 
