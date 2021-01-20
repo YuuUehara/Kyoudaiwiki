@@ -147,3 +147,5 @@ plugins:
 ## The license
 
 The theme is available as open source under the terms of the MIT License
+
+The theme is inspired by [sphinx-rtd-theme](https://github.com/readthedocs/sphinx_rtd_theme) and [jekyll-rtd-theme](https://github.com/rundocs/jekyll-rtd-theme).
