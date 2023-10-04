@@ -12,7 +12,7 @@
 {% include list.liquid all=true %}
 
 <!-- image -->
-![yu门！](assets/images/title.jpg)
+![yu门！](/assets/images/title.jpg)
 
 ```note
 欢迎大家一起来施工喵。
