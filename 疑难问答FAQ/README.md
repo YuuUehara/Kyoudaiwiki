@@ -2,7 +2,7 @@
 sort: 4
 ---
 
-# Deepin-FAQ
+# WIKI-FAQ
 
 
 {% include list.liquid all=true %}
