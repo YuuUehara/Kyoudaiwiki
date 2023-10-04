@@ -1,16 +1,14 @@
 # ★〓本wiki编辑及使用方法〓★
 
 ```note
-deepin用户手册文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
+KU-informatics-wiki文档目录上线GitHub，该项目由Jekyll wiki主题驱动！
 ```
 
 ## 1.项目介绍
 
-**亲爱的深粉：（深度官方原文）**
+**亲爱的K友：（**
 
- deepin文档目录已上线GitHub，目前包括deepin用户手册&deepin-FAQ。
- 
- deepin用户手册，主要是deepin操作系统的一些使用介绍文档。目前我们已经上传了一些内容，包括系统基础支持、入门知识、基础模块功能使用介绍，大家可以了解学习，或者从这些或其他方面补充。
+ KU-informatics-wiki文档目录已上线GitHub，目前还什么都不包括。
 
 ## 2.文档及排版要求
 
